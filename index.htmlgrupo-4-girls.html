@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Tech Nova - Atividade GitHub</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #FFF0F5, #FFE4E1); /* degradê rosa */
+            padding: 30px 20px;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        header h1 {
+            color: #D63384; /* rosa forte */
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #C71585;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+       .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 colunas = 4 cards */
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto 40px auto;
+        }
+
+       .card {
+            background-color: #FFFFFF;
+            border: 2px solid #FFB6C1; /* borda rosa */
+            border-radius: 25px;
+            padding: 30px 20px;
+            box-shadow: 0 8px 16px rgba(214, 51, 132, 0.15);
+            transition: all 0.3s ease;
+        }
+
+       .card:hover {
+            transform: translateY(-5px); /* efeito fofo ao passar o mouse */
+            box-shadow: 0 12px 24px rgba(214, 51, 132, 0.2);
+        }
+
+       .card h2 {
+            color: #D63384;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+       .card p {
+            color: #555;
+            font-size: 1em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+       .btn {
+            background: linear-gradient(90deg, #FF69B4, #FF1493); /* rosa degradê */
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+        }
+
+       .btn:hover {
+            background: linear-gradient(90deg, #D63384, #C71585);
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(214, 51, 132, 0.4);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #D63384;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        /* Deixa responsivo pro celular */
+        @media (max-width: 768px) {
+           .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>💖 Equipe Tech Nova 💖</h1>
+        <p>Atividade de Colaboração no GitHub</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- PARTE 1 - Integrante 1 -->
+        <section class="card">
+            <h2>Integrante 1</h2>
+            <p>Oi! Eu sou a [Coloque seu Nome] e essa é a minha parte do projeto. Amo programar! 💻</p>
+            <button class="btn" onclick="alert('Olá! Aqui é a Integrante 1 😊')">Clique Aqui 1</button>
+        </section>
+
+        <!-- PARTE 2 - Integrante 2 -->
+        <section class="card">
+            <h2>Integrante 2</h2>
+            <p>Olá pessoal! Eu sou a [Coloque seu Nome] e adicionei esse card fofo pra atividade.</p>
+            <button class="btn" onclick="alert('Oi! Aqui é a Integrante 2 💕')">Clique Aqui 2</button>
+        </section>
+
+        <!-- PARTE 3 - Integrante 3 -->
+        <section class="card">
+            <h2>Integrante 3</h2>
+            <p>Oi gente! Meu nome é [Coloque seu Nome]. GitHub é muito legal de trabalhar em grupo!</p>
+            <button class="btn" onclick="alert('Oi! Aqui é a Integrante 3 ✨')">Clique Aqui 3</button>
+        </section>
+
+        <!-- PARTE 4 - Integrante 4 -->
+        <section class="card">
+            <h2>Integrante 4</h2>
+            <p>E eu sou a [Coloque seu Nome]. Adorei fazer essa página rosa com vocês!</p>
+            <button class="btn" onclick="alert('Oi! Aqui é a Integrante 4 🌸')">Clique Aqui 4</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito com muito carinho pela Equipe 4 💅 | 2026</p>
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html>
